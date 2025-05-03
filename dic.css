@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: mediumpurple;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.content{
+width: 100%;
+max-width: 600px;
+background: #fff;
+color: #000;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+padding: 20px;
+border-radius: 20px;
+}
+.inputcontent{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     padding-bottom: 30px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid mediumpurple;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    font-size: 18px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+background: mediumpurple;
+cursor: pointer;
+}
+.voicesearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.sample span{
+    color: #888;
+    padding-left: 10px;
+}
+.wordsearch{
+    padding: 10px;
+
+}
+.wordsearch p{
+    padding-bottom: 20px;
+}
+.p2{
+    margin-left: 30px;
+}
